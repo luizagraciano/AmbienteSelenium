@@ -61,6 +61,6 @@ public class CadastroPageObjectTest {
 
     @AfterTest
     public void tearDown(){
-        //navegador.quit();
+        navegador.quit();
     }
 }
